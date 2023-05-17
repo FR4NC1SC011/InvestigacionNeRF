@@ -1,10 +1,10 @@
-# Proyecto NeRF (Network of Neural Radiance Fields)
+# Proyecto NeRF (Neural Radiance Fields)
 
-¡Bienvenido a Proyecto NeRF! Este proyecto utiliza la tecnología NeRF (Network of Neural Radiance Fields) con Python y Torch para generar modelos 3D a partir de imágenes 2D. Para ejecutar el código, se requiere CUDA para aprovechar el poder de las GPU.
+Este proyecto utiliza la tecnología NeRF (Neural Radiance Fields) con Python y Torch para generar modelos 3D a partir de imágenes 2D. Para ejecutar el código, se requiere CUDA para aprovechar el poder de las GPU.
 
 ## Descripción
 
-El proyecto NeRF es una implementación de vanguardia que utiliza redes neuronales para generar modelos 3D a partir de un conjunto de imágenes 2D. La tecnología NeRF captura la geometría y la apariencia de un objeto en un espacio tridimensional, lo que permite una visualización y renderización realistas.
+El proyecto NeRF es una implementación que utiliza redes neuronales para generar modelos 3D a partir de un conjunto de imágenes 2D. La tecnología NeRF captura la geometría y la apariencia de un objeto en un espacio tridimensional, lo que permite una visualización y renderización realistas.
 
 ## Requisitos
 
