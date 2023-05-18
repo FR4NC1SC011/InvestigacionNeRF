@@ -10,14 +10,14 @@ from torch.utils.data import DataLoader
 def test(hn, hf, dataset, chunk_size=10, img_index=0, nb_bins=192, H=400, W=400):
     """
     Args:
-        hn: near plane distance
-        hf: far plane distance
-        dataset: dataset to render
-        chunk_size (int, optional): chunk size for memory efficiency. Defaults to 10.
-        img_index (int, optional): image index to render. Defaults to 0.
-        nb_bins (int, optional): number of bins for density estimation. Defaults to 192.
-        H (int, optional): image height. Defaults to 400.
-        W (int, optional): image width. Defaults to 400.
+        hn: distancia cercana al plano
+        hf: distancia lejana al plano
+        dataset: dataset para hacer el render
+        chunk_size (int, optional): tamaño del chunk. Default 10.
+        img_index (int, optional): index de la imagen a renderizar. Default 0.
+        nb_bins (int, optional): numero de bits para la estimacion de densidad. Default 192.
+        H (int, optional): altura de la imagen. Default 400.
+        W (int, optional): anchura de la imagen. Default 400.
         
     Returns:
         None: None
